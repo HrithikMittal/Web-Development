@@ -1,0 +1,1550 @@
+*{
+	margin:0px;
+	padding:0px;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+.main{
+	width:100%;	
+	height:600px;
+	position:relative;
+	background-size: cover;
+	background : url(images/s.jpg); 
+	
+}
+.head{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(25,0,150,0.5),rgba(225,105,0,0.5));
+}
+.opti{
+	position: fixed;
+	z-index:100;
+	background:#000000;
+	height:50px;
+	width:100%;
+}
+.mdiv1{
+	width:20%;
+	height: inherit;
+	margin:0px 90px;
+	position: absolute;
+}
+.mdiv1 > ul > li > a{
+	display: block;
+	font-size: 23px;
+	color:#FFFFFF;
+	padding:14px;
+	margin: 1px;
+	text-align: center;
+}
+.mdiv2{
+	height:inherit;
+	width:57%;
+	margin:0px 0px 0px 580px;
+}
+nav{
+	height:inherit;
+	width:100%;
+	margin:0px 0px 0px 0px;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+ul li{
+	list-style: none;
+	float:left;
+	width:10%;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	color:#a3a4a4;
+	padding:17px 0px;
+	text-align: center;	
+}
+.center{
+	position:absolute;
+	margin: 130px 400px;
+	width: 600px;
+	height:300px;
+}
+
+.cfirst {
+	position: absolute;
+	width:inherit;
+	height:10;
+	color: #F9F8F8;
+	margin:0px 200px;
+}
+
+.csec{
+	height:100px;
+	color: #FFF;
+	width:inherit;
+	margin:60px 0px 0px 0px;
+	font-size: 50px;
+}
+.csec > p{
+	word-spacing: 5	px;
+	letter-spacing: 20px;
+}
+.tsec{
+	border:0.5px solid #FFF;
+	border-radius: 4px;
+	width:150px;
+	text-align: center;
+	margin:0px 200px;
+	padding:10px 10px 10px 0px;
+	font-size: 12px;
+	transition: all linear 0.3s;
+	cursor: pointer;
+}
+
+.tsec > p{
+	color:#FFFFFF;
+	word-spacing: normal;
+	letter-spacing: normal;
+}
+.tsec:hover{
+	color:#000;
+	background: #FFF;
+}
+.tsec:hover p{
+	color:#000;
+}
+
+
+.smain{
+	width:100%;
+	position: relative;
+	height:800px;
+}
+.sfmain{
+	width:100%;
+	height:300px;
+}
+.ssmain{
+	width:50%;
+	height:150px;
+	position: absolute;
+	margin:150px 350px;
+}
+.ssfmain{
+	margin:0px auto;
+	width:100%;
+	height:40px;
+}
+.ssfmain > p{
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 35px;
+	font-stretch: expanded;
+	font-weight: 50;
+	text-align: center;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+.sssmain{
+	position: relative;
+	height:150px;
+	width: 100%;
+}
+.sssmain > p{
+	font-size: 18px;
+	word-spacing:1px;
+	letter-spacing: 1px;
+	font-family: Volkhov, "Times New Roman", sans-serif;
+    font-style: italic;
+	position: absolute;	
+	top:30px;
+	text-align: center;
+}
+.stmain{
+	position: absolute;
+	width:100%;
+	height:500px;
+}
+.sttmain{
+	width:80%;
+	height:90%;
+	margin:10px auto;
+}
+
+.stmainf {
+	float:left;
+	height:150px;
+}
+.stmainf > p{
+	
+}
+.width-control{
+	width: 24.5%;
+	height:170px;
+	margin:30px 2px 0px 0px;
+}
+.stmains {
+	float :left;
+	
+}
+.stmaint{
+	float :left;
+	
+}
+.stmainfo{
+	float :left;
+
+}
+.stmainfi{
+	float :left;
+
+}
+.stmainsi{
+	float :left;
+
+}
+.stmainse{
+	float :left;
+
+}
+.stmainei{
+	float :left;
+
+}
+
+.f{
+	height:80px;
+	width:100%;
+}
+.s{
+	height: 30px;
+	width:100%;
+	text-align: center;
+}
+h3{
+	word-spacing: normal;
+	font-size: 12px;
+	font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.t{
+	height:80px;
+	width:100%;
+}
+.l{
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+.fa-american-sign-language-interpreting{
+	font-size: 60px;
+	padding-left:80px;
+}
+.fa-bicycle{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-edit{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-cogs{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-code{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-gem{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-copy{
+	font-size:60px;
+	padding-left: 80px;
+}
+.fa-futbol{
+	font-size:60px;
+	padding-left: 80px;
+}
+
+.cthird{
+	background: url(images/o.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:500px;
+	position: relative;
+}
+.cthirdhead{
+	width:100%;
+	height:100%;
+	background: linear-gradient(rgba(17,15,15,0.78),rgba(17,15,15,0.78));
+}
+.cthirda{
+	width:50px;
+	height:45px;
+	border-radius: 10px;
+	margin:200px 650px;
+	position: absolute;
+}
+.cthirda > a >img{
+	border-radius: 7px;
+}
+.cthirdb{
+	position: absolute;
+	width:300px;
+	height:40px;
+	margin:270px 570px;
+}
+.cthirdb > h2{
+	color: #FFF;
+	font-size: 22px;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.cthirdc{
+	position: absolute;
+	width:600px;
+	height:40px;
+	margin:310px 470px;
+}
+.cthirdc > p{
+	color: #a3a4a4;
+	font-size: 14px;
+	word-spacing: normal;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+.cforth{
+	width:100%;
+	height:770px;
+	position: relative;
+}
+
+
+.cfortha{
+	position: absolute;
+	width:300px;
+	height:40px;
+	margin:100px 570px;
+}
+.cfortha > h2{
+	font-size: 22px;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.cforthbmenu{
+	width: 65%;
+	height: 60px;
+	margin: 150px 250px;
+	position: absolute;
+}
+.cforthbmenu > nav{
+	width: 80%;
+	height: 50px;
+	margin: 0px auto;
+}
+.cforthbmenu > nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+.cforthbmenu > nav > ul > li{
+	list-style: none;
+	width: 20%;
+	height: 50px;
+	float: left;
+}
+.cforthbmenu > nav > ul > li > a{
+	color:#000;
+	display: block;
+	font-size: 12px;
+	word-spacing: normal;
+	text-decoration: none;
+	text-align: center;
+	padding: 19.5px;
+	text-transform: uppercase;
+}
+.cforthbmenu > nav > ul > li > a:hover{
+	color:#a3a4a4;
+}
+
+.cforthb:hover .cforthbimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+.cforthc{
+	width:440px;
+	height:250px;
+	margin:250px 10px 0px 0px;
+	position: absolute;
+	transition: all ease 1s;
+	overflow: hidden;
+}
+.cforthcimg{
+	width:100%;
+	height:100%;
+	transition: all ease 1s;
+}
+.cforthcimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all ease 1s;
+}
+.cforthctext{
+	width:100%;
+	height:250px;
+	position: absolute;
+	top:-100px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+.cforthctext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all ease 1s;
+}
+.cforthctext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all ease 1s;
+}
+.cforthc:hover .cforthctext{
+	top:0px;
+	transition: all ease 1s;
+	opacity: 1;
+	background-color: rgba(247,247,247,0.72);
+}
+
+.cforthc:hover .cforthcimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+
+
+.cforthd{
+	width:440px;
+	height:250px;
+	margin:250px 10px 0px 450px;
+	position: absolute;
+	overflow: hidden;
+	transition: all ease 1s;
+}
+.cforthdimg{
+	width:100%;
+	height:100%;
+	transition: all ease 1s;
+}
+.cforthdimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all ease 1s;
+}
+.cforthdtext{
+	width:100%;
+	height:250px;
+	top:-100px;
+	opacity: 0;
+	position: absolute;
+	transition: all ease 1s;
+}
+
+.cforthdtext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all ease 1s;
+}
+.cforthdtext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all  ease 1s;
+}
+.cforthd:hover .cforthdtext{
+	top:0px;
+	transition: all ease 1s;
+	background-color: rgba(247,247,247,0.72);
+	opacity: 1;
+}
+
+.cforthd:hover .cforthdimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+
+
+.cforthe{
+	width:448px;
+	height:250px;
+	margin:250px 0px 0px 900px;
+	position: absolute;
+	overflow: hidden;
+	transition: all linear 1s;
+}
+
+.cfortheimg{
+	width:100%;
+	height:100%;
+	transition: all linear 1s;
+}
+.cfortheimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all linear 1s;
+}
+.cforthetext{
+	width:100%;
+	height:250px;
+	position: absolute;
+	top:-100px;
+	opacity: 0;
+	transition: all linear 1s;
+}
+
+.cforthetext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all linear 1s;
+}
+.cforthetext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all  2s;
+}
+.cforthe:hover .cforthetext{
+	top:0px;
+	transition: all linear 1s;
+	opacity: 1;
+	background-color: rgba(247,247,247,0.72);
+}
+
+.cforthe:hover .cfortheimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+
+
+.cforthf{
+	width:440px;
+	height:250px;
+	margin:510px 10px 0px 0px;
+	position: absolute;
+	overflow: hidden;
+	transition: all ease 1s;
+}
+.cforthfimg{
+	width:100%;
+	height:100%;
+	transition: all ease 1s;
+}
+.cforthfimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all ease 1s;
+}
+.cforthftext{
+	width:100%;
+	height:250px;
+	position: absolute;
+	top:-100px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+.cforthftext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all ease 1s;
+}
+.cforthftext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all ease 1s;
+}
+.cforthf:hover .cforthftext{
+	top:0px;
+	transition: all ease 1s;
+	opacity: 1;
+	background-color: rgba(247,247,247,0.72);
+}
+
+.cforthf:hover .cforthfimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+
+
+.cforthg{
+	width:440px;
+	height:250px;
+	margin:510px 10px 0px 450px;
+	position: absolute;
+	overflow: hidden;
+	transition: all ease 1s;
+}
+.cforthgimg{
+	width:100%;
+	height:100%;
+	transition: all ease 1s;
+}
+.cforthgimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all ease 1s;
+}
+.cforthgtext{
+	width:100%;
+	height:250px;
+	position: absolute;
+	top:-100px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+.cforthgtext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all ease 1s;
+}
+.cforthgtext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all  ease 1s;
+}
+.cforthg:hover .cforthgtext{
+	top:0px;
+	transition: all ease 2s;
+	opacity: 1;
+	background-color: rgba(247,247,247,0.72);
+}
+.cforthg:hover .cforthgimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+
+
+.cforthh{
+	width:448px;
+	height:250px;
+	margin:510px 0px 0px 900px;
+	position: absolute;
+	overflow: hidden;
+	transition: all linear 1s;
+}
+
+.cforthhimg{
+	width:100%;
+	height:100%;
+	transition: all linear 1s;
+}
+.cforthhimg > img{
+	width:inherit;
+	height:inherit;
+	transition: all linear 1s;
+}
+.cforthhtext{
+	width:100%;
+	height:250px;
+	position: absolute;
+	top:-100px;
+	opacity: 0;
+	transition: all linear 1s;
+}
+
+.cforthhtext > h1{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	text-align: center;
+	padding: 100px 30px 0px 0px;
+	transition: all linear 1s;
+}
+.cforthhtext > p{
+	word-spacing: normal;
+	letter-spacing: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px 0px 0px;
+	color:#a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serifl;
+	transition: all  ease 1s;
+}
+.cforthh:hover .cforthhtext{
+	top:0px;
+	transition: all linear 1s;
+	opacity: 1;
+	background-color: rgba(247,247,247,0.72);
+}
+
+.cforthh:hover .cforthhimg{
+	transform: scale(1.2) rotate(5deg);
+}
+
+
+.cfive{
+	background:#111;
+	width:100%;
+	height:190px;
+	position: relative;
+}
+.cfivea{
+	position: absolute;
+	width:300px;
+	height:17px;
+	margin:80px 350px;
+}
+.cfivea > h1{
+	font-size: 12px;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color:#EEE;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+.cfiveb{
+	position: absolute;
+	margin: 97px 350px 0px ;
+	width:500px;
+	height:50px;
+}
+.cfiveb > p{
+	color:#a3a4a4;
+	font-size: 12px;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+.cfivec{
+	background: #cfcfcf;
+	height:30px;
+	width:200px;
+	position: absolute;
+	margin: 82px 850px;
+	border-radius:3px;
+}
+.cfivec > a{
+	text-decoration: none;
+	color: #000000;
+}
+.cfivec > a > p{
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 9px;
+}
+.cfivec:hover {
+	background-color:#FFF;
+}
+
+
+.csix{
+	width:100%;
+	height:1100px;
+	position: relative;
+}
+.csixa{
+	position: absolute;
+	margin:140px 550px;
+	width:350px;
+	height:50px;
+}
+.csixa > h1{
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+.csixb{
+	height:100px;
+	width:600px;
+	position: absolute;
+	margin:210px 360px;
+}
+.csixb > p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-style: italic;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	text-align: center;
+	
+}
+.csixc1{
+	width:300px;
+	height:570px;
+	position: absolute;
+	margin:350px 100px 0px;
+}
+.csixc2{
+	width:500px;
+	height:700px;
+	position: absolute;
+	margin:300px 400px 0px;
+}
+.csixc2img{
+	width:inherit;
+	height:inherit;
+}
+.csixc2img > img{
+	width:inherit;
+	height:inherit;
+}
+.csixc3{
+	width:300px;
+	height:570px;
+	position: absolute;
+	margin:350px 950px 0px;
+}
+
+
+.csixc1a{
+	height:25%;
+	width:100%;
+}
+.csixc1a > h1 > i{
+	font-size: 25px;
+}
+.csixc1a > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	width:100%;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.csixc1a > p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	width:90%;
+	font-size: 13px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	height:200px;
+	padding:8px 0px 0px 32px;
+}
+
+
+.cseven{
+	width:100%;
+	height:850px;
+	position:relative;
+}
+.csevena {
+	position: absolute;
+	margin:140px 550px;
+	width:260px;
+	height:50px;
+}
+
+.csevenb {
+	height:100px;
+	width:600px;
+	position: absolute;
+	margin:210px 360px;
+}
+
+.csevena > h1 {
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+.csevenb > p {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-style: italic;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.csevenc{
+	width:250px;
+	height:350px;
+	position: absolute;
+	margin:320px 150px 0px;
+	overflow: hidden;
+}
+.csevencimg{
+	transition: all ease 0.2s;
+	width:inherit;
+	height:inherit;
+}
+.csevencimg > img{
+	height:100%;
+	width:100%;
+}
+.csevenctext{
+	transition: all ease 0.2s;
+	position: absolute;
+	background:rgba(17,17,17,0.67);
+	width:inherit;
+	height:inherit;
+	top:-350px;
+}
+.csevenc:hover .csevenctext{
+	top:0px;
+}
+.csevenctext  > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+	word-spacing: normal;
+	letter-spacing: normal;
+	padding-top: 100px;
+	font-size: 18px;
+	color: #a3a4a4;
+}
+.csevenctext  > p{
+	letter-spacing: normal;
+	word-spacing: normal;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #a3a4a4;
+	text-align: center;
+	padding: 10px 0px;
+}
+.csevenctext > p > a{
+	text-decoration: none;
+	color: #a3a4a4;
+}
+
+.csevench{
+	position: absolute;
+	width:250px;
+	height:100px;
+	margin:700px 150px 0px;
+}
+
+.csevench >  h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 11px;
+	word-spacing: 2px;
+	letter-spacing: normal;
+	text-align: center;
+}
+.csevench > p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 11px;
+	word-spacing: 2px;
+	letter-spacing: normal;
+	text-align: center;
+	padding: 6px 0px;
+	color: #a3a4a4;
+}
+
+.csevend{
+	background:#2E84AD;
+	width:250px;
+	height:350px;
+	position: absolute;
+	margin:320px 430px 0px;
+	overflow: hidden;
+}
+.csevendimg{
+	transition: all ease 0.2s;
+	width:inherit;
+	height:inherit;
+}
+.csevendimg > img{
+	height:100%;
+	width:100%;
+}
+.csevendtext{
+	transition: all ease 0.2s;
+	position: absolute;
+	background:rgba(17,17,17,0.67);
+	width:inherit;
+	height:inherit;
+	top:-350px;
+}
+.csevend:hover .csevendtext{
+	top:0px;
+}
+.csevendtext  > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+	word-spacing: normal;
+	letter-spacing: normal;
+	padding-top: 100px;
+	font-size: 18px;
+	color: #a3a4a4;
+}
+.csevendtext  > p{
+	letter-spacing: normal;
+	word-spacing: normal;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #a3a4a4;
+	text-align: center;
+	padding: 10px 0px;
+}
+.csevendtext > p > a{
+	text-decoration: none;
+	color: #a3a4a4;
+}
+
+.csevene{
+	margin:320px 700px 0px;
+}
+.csevenf{
+	margin:320px 970px 0px;
+}
+
+.csevendh{
+	margin:700px 430px 0px;
+}
+
+.cseveneh{
+	margin:700px 700px 0px;
+}
+
+.csevenfh{
+	margin:700px 970px 0px;
+}
+
+
+
+.ceight{
+	width:100%;
+	height:450px;
+	background: url(images/10.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.ceighta{
+	width:100%;
+	height:100%;
+	background: linear-gradient(rgba(7,7,7,0.9),rgba(7,7,7,0.9))
+}
+
+.ceightb{
+	width:300px;
+	height:50px;
+	position: absolute;
+	margin:130px 550px 0px;
+}
+.ceightb > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color:#FFF;
+}
+.ceightc{
+	width:200px;
+	height:200px;
+	position: absolute;
+	margin:200px 200px 0px;
+}
+.ceightc > i{
+	font-size: 60px;
+	padding-left: 70px;
+	color: #EBE5E5;
+}
+.ceightc > i:hover{
+	color:#FFF;
+}
+.ceightc > h1{
+	text-align: center;
+	padding-top: 15px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color:#EEE;
+}
+.ceightc > p{
+	text-align: center;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	word-spacing: normal;
+	letter-spacing: normal;
+	color:#EEE;
+	font-style: italic;
+}
+.ceightd{
+	margin:200px 430px 0px;
+}
+.ceightd > i{
+	font-size: 60px;
+	padding-left: 70px;
+}
+
+.ceighte{
+	margin:200px 690px 0px;
+}
+.ceighte > i{
+	font-size: 60px;
+	padding-left: 70px;
+}
+.ceightf{
+	margin:200px 930px 0px;
+}
+.ceightf > i{
+	font-size: 60px;
+	padding-left: 70px;
+}
+.csevendtext > p > a:hover {
+	color:#FFF;
+}
+.csevenctext > p > a:hover {
+	color:#FFF;
+}
+
+.cnine{
+	width:100%;
+	height:1000px;
+	position: relative;
+}
+
+.cninea{
+	width:250px;
+	height:400px;
+	margin:330px 120px 0px; 
+	position: absolute;
+	border: solid 1px #BBAEAE;
+}
+.cnineb{
+	margin:330px 390px 0px;
+}
+.cninec{
+	margin:320px 660px 0px;
+	height:420px;
+}
+.cnined{
+	margin:330px 930px 0px
+}
+.cninea > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	letter-spacing: normal;
+} 
+.cninea > img{
+	text-align: center;
+	width:100%;
+}
+.cninea > h2{
+	text-align: center;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 55px;
+}
+.cninea > h2 > sup{
+	font-size:10px;
+}
+
+.cninea > p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 12px;
+	text-align: center;
+	word-spacing: normal;
+	letter-spacing: normal;
+	padding: 8px 0px;
+}
+.b{
+	margin:10px auto;
+	background:#404040;
+	color: #FFF;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-align: center;
+	width:100px;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 14px;
+}
+.b:hover{
+	background: #000000;
+}
+.cninea:hover{
+	border:solid 1px #7B7878;
+} 
+.cninee{
+	width:600px;
+	height:200px;
+	margin:810px 330px 0px;
+	position: absolute;
+}
+.cninee > p{
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-align: center;
+	color:#666666;
+}
+.cten{
+	width:100%;
+	height:450px;
+	position: absolute;
+	background: #F56A6D;
+	background: url(images/4.jpg) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+	position:relative;
+	overflow: hidden;
+}
+.ccten{
+	
+	width:100%;
+	height:450px;
+	position: absolute;
+	background: linear-gradient(rgba(17,15,15,0.78),rgba(17,15,15,0.78));
+}
+
+.one{
+	width:300%;
+	height:450px;
+	position: relative;
+	transition: left 0.3s;
+}
+
+.sl1{
+	width:33.333%;
+	height:450px;
+	float:left;
+}
+.fa-redo{
+	font-size: 20px;	
+	margin:150px 240px 40px 0px;
+	color: #FFF;
+	left:650px;
+	position: relative;
+}
+.sl1 > h3{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin:0px 0px 0px 0px;
+	font-size: 16px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl1 > h5{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:30px 0px 0px 0px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl1 > h6{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:0px 0px 0px 0px;
+	position: relative;
+	color: #a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl2{
+	width:33.333%;
+	height:450px;
+	float:left;
+}
+
+.sl2 > h3{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin:0px 0px 0px 0px;
+	font-size: 16px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl2 > h5{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:30px 0px 0px 0px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl2 > h6{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:0px 0px 0px 0px;
+	position: relative;
+	color: #a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+
+.sl3{
+	width:33.333%;
+	height:450px;
+	float:left;
+}
+
+.sl3 > h3{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin:0px 0px 0px 0px;
+	font-size: 16px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl3 > h5{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:30px 0px 0px 0px;
+	position: relative;
+	color: #FFF;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.sl3 > h6{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 10px;
+	margin:0px 0px 0px 0px;
+	position: relative;
+	color: #a3a4a4;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+}
+
+.btn{
+	width:100%;
+	height:100px;
+	position: relative;
+	top:-100px;
+}
+
+
+.slide{
+	background:#a3a4a4;
+	display: inline;
+	padding: 2px;	
+	margin-left: 8px;
+	border: 1px rgba(152,138,138,1.00) solid;
+	border-radius: 100%;
+	position: relative;
+}
+#p1:target ~ .one{
+	left: 0px;
+}
+
+#p2:target ~ .one{
+	left: -1350px;
+}
+
+#p3:target ~ .one{
+	left: -2700px;
+}
+
+.celeven{
+	
+	width:100%;
+	height:800px;
+	position: relative;
+}
+.celevena{
+	position: absolute;
+	margin:140px 500px;
+	width:350px;
+	height:50px;
+}
+.celevenb{
+	width:320px;
+	height:350px;
+	margin:300px 0px 0px 180px;
+	position: absolute;
+	
+}
+
+.celevenb  a{
+	text-decoration: none;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#000;
+	font-size: 11px;
+}
+
+.celevenb p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#a3a4a4;
+	font-size: 11px;
+}
+.celevenb a:hover{
+	color:#a3a4a4;
+}
+.celevenc{
+	margin:300px 0px 0px 520px;
+	width:320px;
+	height:350px;
+	position: absolute;
+}
+
+
+.celevenc  a{
+	text-decoration: none;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#000;
+	font-size: 11px;
+}
+
+.celevenc p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#a3a4a4;
+	font-size: 11px;
+}
+.celevenc a:hover{
+	color:#a3a4a4;
+}
+
+.celevend{
+	margin:300px 0px 0px 860px;
+	width:320px;
+	height:350px;
+	position: absolute;
+}
+
+
+.celevend  a{
+	text-decoration: none;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#000;
+	font-size: 11px;
+}
+
+.celevend p{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color:#a3a4a4;
+	font-size: 11px;
+}
+.celevend a:hover{
+	color:#a3a4a4;
+}
+.ctwelvea{
+	width:420px;
+	letter-spacing: 1px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	background:#EEE;
+	height:30px;
+	margin:80px 800px;
+	position: absolute;
+}
+.ctwelvea > input{
+	height:27px;
+	width:300px;
+	text-transform:uppercase;	
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	outline: none;
+}
+.ctwelvea > button{
+	outline: none;
+	width:120px;
+	padding: 0px;
+	margin: 0px;
+	height:30px;
+	position: absolute;
+}
+.cfinal > h1{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+}
+.cfinal  input{
+	width:500px;
+	height:20px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin:10px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+.cfinal textarea{
+	width:500px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	height:100px;
+	margin:10px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	border-radius: 2px;
+}
+
+.ffinal{
+	color:#FFF;
+	height:20px;
+	background: #4E4D4D;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+}
+.cfinal > h1{
+	margin-left :30px;
+}
+
+.cfinal  form{
+	margin:0px -100px;
+}
